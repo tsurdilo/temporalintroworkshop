@@ -1,0 +1,7 @@
+package com.sample.banking;
+
+public class TransferException extends Exception {
+    public TransferException(String message) {
+        super(message);
+    }
+}
